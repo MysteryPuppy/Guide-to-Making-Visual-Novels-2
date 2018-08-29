@@ -47,7 +47,7 @@ image kiwi moving:
 
 #### 👾 Exporting Your Game
 
-1. Exporting your game is pretty straight-forward. On the Ren'Py application, press `Build Distributions` then press which operating systems you want to build for. Then simply press `Build` and Ren'Py will package your game into executable file/s. If for some reason the build fails, it's probably because your files are named the wrong (see the first guide for Ren'Py naming conventions). If it's not that, try restarting the application/Ren'Py.
+1. Exporting your game is pretty straight-forward. On the Ren'Py application, press `Build Distributions` then press which operating systems you want to build for. Then simpl ny press `Build` and Ren'Py will package your game into executable file/s. If for some reason the build fails, it's probably because your files are named the wrong (see the first guide for Ren'Py naming conventions). If it's not that, try restarting the application/Ren'Py.
 
 
 Alright, that finishes this second guide to Ren'Py! It's probably also the final guide I make on Ren'Py since it's all you really need to make a nice-looking game. Keep creating & having fun 🎮
