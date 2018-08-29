@@ -7,8 +7,7 @@ Now that we have learned the basics in our [previous tutorial](https://blog.prot
 
 1. It's easy to add music to your game. The audio file types that are supported by Ren'Py are: Opus, Oggs Vorbis, MP3, and WAV. So as long as your music is saved as one of these types, you're good to go. Place your music file in the `game` main folder or create a new folder in the `game` main folder and call it `music` (this is what I usually do to keep things organized). To play the song in your game, simply write `play music "music/[name of file with extension]"`. If you want the song to loop, you can get it to do so by typing `play music "<loop 0>music/[name of file with extension]"` instead.
 2. To fade in the music, you can write `fadein [time]` afterwards to allow for a more gradual start to a song.
-3. To stop the music, simply write `stop sound` and to have the music fadeout, write `stop music fadeout [time]`. <br> An example of playing a song in Ren'Py with the file name of `friends.ogg` (not that the file is located in a folder called `music` in this example):
-![alt text](https://github.com/lovebirdsnest/Guide-to-Making-Visual-Novels-2/blob/master/images/1.png "Adding music to your game")
+3. To stop the music, simply write `stop sound` and to have the music fadeout, write `stop music fadeout [time]`. <br> An example of playing a song in Ren'Py with the file name of `friends.ogg` (not that the file is located in a folder called `music` in this example): `play music "<loop 0>music/friends.ogg" fadein 2.0`
 
 #### 🔠 Changing the Game Font
 
@@ -31,7 +30,7 @@ Now that we have learned the basics in our [previous tutorial](https://blog.prot
 
 #### 👾 Exporting Your Game
 
-1. Exporting your game is pretty straight-forward. On the Ren'Py application, press `Build Distributions` then press which operating systems you want to build for. Then simply press `Build` and Ren'Py will package your game into executable file/s. If for some reason the build fails, it's probably because your files are named the wrong (see the first guide for Ren'Py naming conventions). If it's not that, try restarting the application/Ren'Py. 
+1. Exporting your game is pretty straight-forward. On the Ren'Py application, press `Build Distributions` then press which operating systems you want to build for. Then simply press `Build` and Ren'Py will package your game into executable file/s. If for some reason the build fails, it's probably because your files are named the wrong (see the first guide for Ren'Py naming conventions). If it's not that, try restarting the application/Ren'Py.
 
 
 Alright, that finishes this second guide to Ren'Py! It's probably also the final guide I make on Ren'Py since it's all you really need to make a nice-looking game. Keep creating & having fun 🎮
