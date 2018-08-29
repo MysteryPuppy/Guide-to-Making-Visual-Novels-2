@@ -30,6 +30,20 @@ Now that we have learned the basics in our [previous tutorial](https://blog.prot
 ![alt text](https://github.com/lovebirdsnest/Guide-to-Making-Visual-Novels-2/blob/master/images/6.png "Getting rid of the quick menu")
 5. To continue, you could also change the rest of the image files in the `gui` folder to your liking. This will really make your game look more cohesive and like it's of a certain style.
 
+#### 🖼 Animating Your Characters
+
+1. Sometimes you might want to animate some of your characters in a game. Personally, I don't do this much but it's good to know how. Animating in Ren'Py is perhaps a little different than you would expect. When I first started, I thought that perhaps I could put in a gif or something but that's not the case. Each frame of the animation is a .png/jpeg in the `images` folder that are put in a sequence by Ren'Py.
+2.  Once you have the images you want in your animation saved in the `images` folder, all you have to do is create a new `image` definition in Ren'Py. Then put the images you want in a sequence seperated by pause times like this:
+```
+image kiwi moving:
+        "kiwi silly.png"
+        pause 1.0
+        "kiwi blush.png"
+        pause 1.0
+        repeat
+```
+3. The `repeat` at the bottom shows Ren'Py that you want the image to keep looping and going through the sequence until another expression is called on that character or it's hidden.
+
 #### 👾 Exporting Your Game
 
 1. Exporting your game is pretty straight-forward. On the Ren'Py application, press `Build Distributions` then press which operating systems you want to build for. Then simply press `Build` and Ren'Py will package your game into executable file/s. If for some reason the build fails, it's probably because your files are named the wrong (see the first guide for Ren'Py naming conventions). If it's not that, try restarting the application/Ren'Py.
