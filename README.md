@@ -3,7 +3,7 @@
 
 ![alt text](https://github.com/lovebirdsnest/Guide-to-Making-Visual-Novels/blob/master/images/home.png "Example visual novel")
 
-Now that we have learned the basics in our [previous tutorial](https://blog.prototypr.io/guide-to-making-visual-novels-e86e5fc835b7), we're ready to move on to some of the more complicated things Ren'Py can do. Note: You can always checkout the [GitHub page](https://github.com/lovebirdsnest/From-Here-to-You) of my game if you don't understand how to alter something and you can use the assets from that game to practice with if you wish.
+Now that we have learned the basics in our [previous tutorial](https://github.com/MysteryPuppy/Guide-to-Making-Visual-Novels), we're ready to move on to some of the more complicated things Ren'Py can do. Note: You can always checkout the [GitHub page](https://github.com/lovebirdsnest/From-Here-to-You) of my game if you don't understand how to alter something and you can use the assets from that game to practice with if you wish.
 
 #### 🎵 Adding Music to Your Game
 
